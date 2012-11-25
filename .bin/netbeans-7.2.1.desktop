@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=NetBeans IDE 7.2.1
+Comment=The Smarter Way to Code
+Exec=/bin/sh "/home/eric/installs/netbeans-7.2.1/bin/netbeans"
+Icon=/home/eric/installs/netbeans-7.2.1/nb/netbeans.png
+Categories=Application;Development;Java;IDE
+Version=1.0
+Type=Application
+Terminal=0
+

@@ -1,0 +1,16 @@
+{
+    "Ruby": {
+        "rubyExtraPaths": [
+        "libs",
+        "/home/eric/.rvm/gems"
+        ]
+    },
+
+    "JavaScript": {
+        "javascriptExtraPaths": [
+            "libs",
+            "~/projects",
+            "/home/eric/.config/sublime-text-2/Packages/SublimeCodeIntel/libs/codeintel2/lib_srcs/node.js"
+        ]
+    }    
+}

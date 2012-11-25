@@ -1,0 +1,13 @@
+{
+	"files":
+	{
+		"ember": "https://github.com/downloads/emberjs/ember.js/ember-latest.js",
+		"ember-data": "https://github.com/downloads/emberjs/data/ember-data-latest.js",
+		"handlebars": "https://github.com/downloads/wycats/handlebars.js/handlebars-1.0.0.beta.6.js",
+		"jquery": "http://code.jquery.com/jquery.min.js"
+	},
+	"packages":
+	{
+		"html5-boilerplate": "http://github.com/h5bp/html5-boilerplate/zipball/v2.0stripped"
+	}
+}

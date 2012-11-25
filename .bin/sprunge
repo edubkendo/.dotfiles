@@ -1,0 +1,17 @@
+#!/bin/bash
+url=$(curl -F 'sprunge=<-' -H "Expect: " http://sprunge.us 2>/dev/null)
+if [ $? -ne 0 ]; then
+  echo "request failed" >&2
+  exit 1
+fi
+if [ $# -gt 0 ]; then
+  url="$url?$1"
+fi
+echo $url
+if [ $DISPLAY ]; then
+  { type xsel >/dev/null 2>/dev/null && echo -n $url | xsel; } \
+    || { type xclip >/dev/null 2>/dev/null && echo -n $url | xclip; } \
+    || echo "haven't copied to the clipboard: no xsel or xclip" >&2
+else
+  echo "haven't copied to the clipboard: no \$DISPLAY" >&2
+fi
