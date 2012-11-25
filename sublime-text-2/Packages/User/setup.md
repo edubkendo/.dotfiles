@@ -117,3 +117,5 @@ In Sublime Text, install through Package Manager
 - Terminal
 - ThemePhoenix
 - Todo Manager
+
+![Result](https://github.com/edubkendo/.dotfiles/blob/master/subl_screen.png?raw=true "The Awesome Result")
