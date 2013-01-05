@@ -2,7 +2,7 @@
     "Ruby": {
         "rubyExtraPaths": [
         "libs",
-        "/home/eric/.rvm/gems"
+        "/home/eric/installs/jruby-1.7.1/lib/ruby/gems/shared/gems"
         ]
     },
 
@@ -12,5 +12,5 @@
             "~/projects",
             "/home/eric/.config/sublime-text-2/Packages/SublimeCodeIntel/libs/codeintel2/lib_srcs/node.js"
         ]
-    }    
+    }
 }
